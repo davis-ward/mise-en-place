@@ -1,0 +1,10 @@
+<header class="relative w-full py-6 px-4">
+  <a href="/" class="absolute left-4 top-1/2 -translate-y-1/2 text-xl font-semibold hover:opacity-80">{{ .Site.Title }}</a>
+  <div class="flex items-center justify-center">
+    {{ with .Site.Params.about }}
+      <p class="text-sm text-slate-600 text-center">{{ . }}</p>
+    {{ end }}
+  </div>
+</header>
+
+

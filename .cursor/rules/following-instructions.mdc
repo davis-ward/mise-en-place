@@ -1,0 +1,9 @@
+---
+description: how to follow instructions
+alwaysApply: false
+---
+
+- code the simplest solution possible to accomplish the task asked by the user
+- do not add features the user did not ask for
+- reply concise and try not to use filler words
+- always run the site with 'hugo server'

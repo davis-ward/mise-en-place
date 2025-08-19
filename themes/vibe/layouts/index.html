@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="mt-6">
+    <div class="divide-y divide-slate-200">
+      {{ $posts := where .Site.RegularPages "Type" "posts" }}
+      {{ range sort $posts "Date" "desc" }}
+        <a class="flex items-baseline justify-between gap-4 py-3 hover:bg-slate-50 -mx-4 px-4 rounded" href="{{ .RelPermalink }}">
+          <h2 class="text-base font-medium truncate">{{ .Title }}</h2>
+          <time class="text-sm text-slate-500 whitespace-nowrap" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        </a>
+      {{ else }}
+        <p class="text-slate-600 py-6">No posts yet.</p>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+
+

@@ -1,0 +1,8 @@
+---
+description: the architecture of this site
+globs:
+alwaysApply: false
+---
+
+- this is a simple blog site built using hugo
+- for styling, it will use tailwind

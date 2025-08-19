@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mise-en-place.dev</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on mise-en-place.dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Jul 2025 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 20 Jul 2025 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to the blog. This is a short first post to confirm everything is wired up.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to expect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Posts about building with Hugo&lt;/li&gt;&#xA;&lt;li&gt;Styling with Tailwind CSS&lt;/li&gt;&#xA;&lt;li&gt;Notes on writing and publishing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Thanks for reading!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting Up Hugo &#43; Tailwind</title>
+      <link>http://localhost:1313/posts/hugo-setup/</link>
+      <pubDate>Fri, 18 Jul 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/hugo-setup/</guid>
+      <description>&lt;p&gt;This post outlines a minimal setup for a Hugo site styled with Tailwind.&lt;/p&gt;&#xA;&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a Hugo site and a custom theme.&lt;/li&gt;&#xA;&lt;li&gt;Add Tailwind and PostCSS with Hugo Pipes.&lt;/li&gt;&#xA;&lt;li&gt;Build pages and style with utility classes.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You&amp;rsquo;re good to go.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Simple Writing Flow</title>
+      <link>http://localhost:1313/posts/writing-flow/</link>
+      <pubDate>Tue, 15 Jul 2025 08:15:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/writing-flow/</guid>
+      <description>&lt;p&gt;Keep drafts short, publish early, and iterate.&lt;/p&gt;&#xA;&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Outline before writing.&lt;/li&gt;&#xA;&lt;li&gt;Keep paragraphs short.&lt;/li&gt;&#xA;&lt;li&gt;Revisit published posts with updates.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Happy writing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

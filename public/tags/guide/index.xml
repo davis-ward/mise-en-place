@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide on mise-en-place.dev</title>
+    <link>http://localhost:1313/tags/guide/</link>
+    <description>Recent content in Guide on mise-en-place.dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jul 2025 14:30:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Hugo &#43; Tailwind</title>
+      <link>http://localhost:1313/posts/hugo-setup/</link>
+      <pubDate>Fri, 18 Jul 2025 14:30:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/hugo-setup/</guid>
+      <description>&lt;p&gt;This post outlines a minimal setup for a Hugo site styled with Tailwind.&lt;/p&gt;&#xA;&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a Hugo site and a custom theme.&lt;/li&gt;&#xA;&lt;li&gt;Add Tailwind and PostCSS with Hugo Pipes.&lt;/li&gt;&#xA;&lt;li&gt;Build pages and style with utility classes.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You&amp;rsquo;re good to go.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

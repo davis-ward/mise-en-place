@@ -1,0 +1,73 @@
+/* Minimal styles to support dark-mode toggle without Tailwind */
+:root {
+	--bg: #ffffff;
+	--fg: #0f172a; /* slate-900 */
+	--muted: #334155; /* slate-700-ish */
+	--track: #cbd5e1; /* slate-300 */
+	--track-dark: #475569; /* slate-600 */
+	--thumb: #ffffff;
+}
+
+.dark {
+	--bg: #0f172a;
+	--fg: #e2e8f0; /* slate-200 */
+	--muted: #94a3b8; /* slate-400 */
+	--track: #475569;
+	--track-dark: #334155;
+	--thumb: #e2e8f0;
+}
+
+html, body {
+	background-color: var(--bg);
+	color: var(--fg);
+}
+
+/* Header toggle styles */
+#theme-toggle {
+	width: 3rem; /* 12 */
+	height: 1.5rem; /* 6 */
+	border-radius: 9999px;
+	background-color: var(--track);
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: background-color 200ms ease;
+}
+
+.dark #theme-toggle {
+	background-color: var(--track-dark);
+}
+
+#theme-toggle-thumb {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 1.25rem; /* 5 */
+	height: 1.25rem;
+	border-radius: 9999px;
+	background-color: var(--thumb);
+	transition: transform 200ms ease, background-color 200ms ease;
+}
+
+.dark #theme-toggle-thumb {
+	background-color: var(--thumb);
+}
+
+/* Move thumb when dark mode is active */
+.dark #theme-toggle-thumb {
+	transform: translateX(1.5rem); /* 24px ~ translate-x-6 */
+}
+
+/* Basic container styles to mimic previous look without Tailwind */
+.page-container {
+	max-width: 48rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.text-muted { color: var(--muted); }
+
+
